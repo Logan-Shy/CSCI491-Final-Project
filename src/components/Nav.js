@@ -9,18 +9,18 @@ const Nav = () => {
 
   return (
     <nav>
-        <h3>Logo</h3>
+        <img src="assets/logo.png" alt="Company Logo" />
         <ul className="nav-links">
-            <Link to="/about" style={navStyle}>
-                <li>About</li>
+            <Link to="/" style={navStyle}>
+                <li>Home</li>
             </Link>
 
             <Link to="/cats" style={navStyle}>
                 <li>Cats</li>
             </Link>
 
-            <Link to="/" style={navStyle}>
-                <li>Home</li>
+            <Link to="/about" style={navStyle}>
+                <li>About</li>
             </Link>
         </ul>
     </nav>
