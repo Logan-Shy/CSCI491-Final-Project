@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { About, Nav, Cats, Home } from './components';
-import './App.css';
+
+
 
 const App = () => {
-  
+
   return (
     <Router>
       <div className="App">

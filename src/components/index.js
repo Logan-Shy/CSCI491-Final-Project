@@ -1,4 +1,5 @@
-export {default as About} from './About.js';
-export {default as Cats} from './Cats.js';
-export {default as Nav} from './Nav.js';
-export {default as Home} from './Home.js';
+export { default as Nav } from './Nav';
+export { default as Headshot } from './Headshot'
+export { About } from './about';
+export { Cats} from './cats';
+export { Home } from './home';
