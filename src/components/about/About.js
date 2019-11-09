@@ -26,7 +26,6 @@ const AboutPage = styled.div`
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.15rem;
 	width: 100%;
-	margin: 50px;
 `
 
 const About = () => {
